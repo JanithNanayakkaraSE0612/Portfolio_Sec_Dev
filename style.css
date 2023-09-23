@@ -962,6 +962,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3{
 
     .sectionGallery {
         height: auto;
+        width: auto; /* this line change today*/
     }
 
     .box {
