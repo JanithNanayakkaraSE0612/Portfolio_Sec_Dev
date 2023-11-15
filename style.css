@@ -304,11 +304,26 @@ p,span{
     width: 16rem;
     margin-bottom: 1rem;
 }
+#about .about-list .list-item1{
+    display: inline-flex;
+    width: 30rem;
+    margin-bottom: 1rem;
+}
 #about .about-list .list-item label{
     font-size: 15px;
     font-weight: 700;
     width: 90px;
     border-right: 1px solid #c1c1c1;
+}
+#about .about-list .list-item1 label{
+    font-size: 15px;
+    font-weight: 700;
+    width: 90px;
+    border-right: 1px solid #c1c1c1;
+}
+#about .about-list .list-item1 p{
+    margin: 0;
+    padding-left: 1rem;
 }
 #about .about-list .list-item p{
     margin: 0;
