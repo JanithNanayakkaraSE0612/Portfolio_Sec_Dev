@@ -429,38 +429,50 @@ p,span{
     width: 90%;
 }
 .progress-bar .progress-line.react{
-    width: 75%;
+    width: 50%;
 }
 .progress-bar .progress-line.css{
-    width: 95%;
+    width: 90%;
 }
 .progress-bar .progress-line.js{
-    width: 80%;
+    width: 70%;
 }
 .progress-bar .progress-line.python{
-    width: 75%;
+    width: 45%;
 }
 .progress-bar .progress-line.django{
+    width: 70%;
+}
+.progress-bar .progress-line.mySql{
     width: 65%;
+}
+.progress-bar .progress-line.Typescript{
+    width: 50%;
 }
 
 .progress-bar .progress-line.html::after{
     content: "90%";
 }
 .progress-bar .progress-line.react::after{
-    content: "75%";
+    content: "50%";
 }
 .progress-bar .progress-line.css::after{
-    content: "95%";
+    content: "90%";
 }
 .progress-bar .progress-line.js::after{
-    content: "80%";
+    content: "70%";
 }
 .progress-bar .progress-line.python::after{
-    content: "75%";
+    content: "45%";
 }
 .progress-bar .progress-line.django::after{
+    content: "70%";
+}
+.progress-bar .progress-line.mySql::after{
     content: "65%";
+}
+.progress-bar .progress-line.Typescript::after{
+    content: "50%";
 }
 
 
