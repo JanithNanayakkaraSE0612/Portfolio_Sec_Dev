@@ -485,7 +485,9 @@ p,span{
 #portfolio .animate-bar::before{
     border-color: var(--bg-color-2);
 }
-
+.heading-wrapper{
+    margin-top: -120px;
+}
 .gallery-wrapper{
     max-width: 1170px;
     margin: auto;
