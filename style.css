@@ -1025,11 +1025,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3{
     pointer-events: none;
   }
   .carousel img{
-    height: 340px;
+    height: 370px;
     object-fit: cover;
     user-select: none;
     margin-left: 14px;
-    width: calc(100% / 3);
+    width: calc(120% / 3);
   }
   .carousel img:first-child{
     margin-left: 0px;
