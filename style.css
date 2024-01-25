@@ -536,6 +536,8 @@ p,span{
 }
 .gallery-item{
     width: calc(100% / 3);
+    height: 340px;
+    object-fit: cover;
     padding: 15px;
 }
 .gallery-item.show{
@@ -563,6 +565,7 @@ p,span{
     width: 100%;
     box-shadow: -2px 3px 15px black;
     vertical-align: middle;
+    object-fit:  cover;
 }
 .gallery-item .gallery-item-inner .overlay{
     opacity: 0;
