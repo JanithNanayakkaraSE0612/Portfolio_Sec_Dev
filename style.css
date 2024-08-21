@@ -191,6 +191,7 @@ p,span{
 }
 #home .text-holder h3{
     font-weight: 300;
+    margin-left: 100px;
 }
 #home .text-holder h3 span{
     font-size: 34px;
@@ -200,19 +201,7 @@ p,span{
     display: block;
     text-align: center;
 }
-#home .hero-img{
-    width: 30rem;
-    height: auto;
-    position: absolute;
-    z-index: 1;
-    right: 3rem;
-    bottom: -5px;
-    pointer-events: none;
-    opacity: 0.6;
-}
-#home .hero-img img{
-    width: 100%;
-}
+
 #home .social-icons{
     position: absolute;
     bottom: 1rem;
