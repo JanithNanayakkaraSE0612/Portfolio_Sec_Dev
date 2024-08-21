@@ -537,8 +537,8 @@ p,span{
 }
 .gallery-item {
     position: relative;
-    width: 100%;
-    height: auto;
+    width: 380px;
+    height: 340px;
     border-radius: 2rem;
     box-shadow: 0 0 1rem #1f242d;
     object-fit: cover;
@@ -568,13 +568,16 @@ p,span{
 .gallery-item .gallery-item-inner:hover .overlay {
     opacity: 1;
 }
-.gallery-item .gallery-item-inner iframe {
+.gallery-item .gallery-item-inner img,
+gallery-item .gallery-item-inner iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover; /* Ensures content scales and crops to fill the container while maintaining aspect ratio */
     box-shadow: -2px 3px 15px black;
     vertical-align: middle;
-    object-fit: cover;
+    border-radius: 2rem; /* Ensure the border radius is applied uniformly */
 }
+
 .gallery-item .gallery-item-inner .overlay {
     opacity: 0;
     position: absolute;
